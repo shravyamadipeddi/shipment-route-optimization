@@ -17,11 +17,11 @@ The system uses a weighted multi-criteria scoring algorithm to rank candidate ro
 
 ## Technology Stack
 
-- **Programming Language:** Python
-- **Data Processing:** Pandas, NumPy
-- **Data Visualization:** Matplotlib, Seaborn
-- **Optimization:** Weighted Multi-Criteria Scoring
-- **Dashboard:** Streamlit
+- Programming Language: Python
+- Data Processing: Pandas, NumPy
+- Data Visualization: Matplotlib, Seaborn
+- Optimization: Weighted Multi-Criteria Scoring
+- Dashboard: Streamlit
 
 ## Dataset
 
@@ -59,7 +59,7 @@ Applied Min-Max normalization separately within each shipment to scale the five 
 
 Used a weighted scoring algorithm to calculate a score for each candidate route.
 
-**Balanced scenario weights:**
+Balanced scenario weights:
 
 | Criterion | Weight |
 |---|---:|
@@ -75,9 +75,9 @@ The route with the lowest weighted score is selected as the recommended route fo
 
 Three optimization scenarios are implemented:
 
-- **Balanced:** Considers all five criteria with balanced priorities.
-- **Cost-focused:** Gives greater importance to minimizing shipping costs.
-- **Time-focused:** Gives greater importance to minimizing transit time.
+- Balanced: Considers all five criteria with balanced priorities.
+- Cost-focused: Gives greater importance to minimizing shipping costs.
+- Time-focused: Gives greater importance to minimizing transit time.
 
 ### 6. Sensitivity Analysis
 
@@ -141,7 +141,7 @@ shipment-route-optimization/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/shravyamadipeddi/shipment-route-optimization.git
 cd shipment-route-optimization
 ```
 
@@ -192,5 +192,5 @@ The detailed technical report is available in the `reports/technical_report.pdf`
 
 ---
 
-**Project:** Shipment Route Optimization Under Cost, Time, and Risk Constraints  
-**Assignment:** Aiqon AI Internship Take-Home Technical Assignment
+Project: Shipment Route Optimization Under Cost, Time, and Risk Constraints  
+Assignment: Aiqon AI Internship Take-Home Technical Assignment

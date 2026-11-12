@@ -21,3 +21,4 @@ Thumbs.db
 # Environment secrets
 .env
 .streamlit/secrets.toml
+src/data_generator_backup.py
