@@ -1,0 +1,4 @@
+scenario,average_cost,average_transit_time,average_delay_probability,average_congestion_risk,average_geopolitical_risk,average_route_score
+Balanced,64647.57,20.13,0.14,1.93,1.73,33.96
+Cost-focused,47814.93,29.3,0.27,2.87,2.27,29.16
+Time-focused,76985.7,15.17,0.09,2.03,1.93,17.96
